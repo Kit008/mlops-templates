@@ -32,7 +32,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 'Az CLI login'
-        uses: azure/login@v1
+        uses: azure/login@hf_447_release
         with:
           creds: ${{secrets.creds}}
           enable-AzPSSession: true 
